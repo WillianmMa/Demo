@@ -33,11 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static android.Manifest.permission.READ_CONTACTS;
-/**
- */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
-    /**
-     */
     private static final int REQUEST_READ_CONTACTS = 0;
     /**
      * A dummy authentication store containing known user names and passwords.
